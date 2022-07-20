@@ -82,7 +82,7 @@ console.log(oggetto1);
 
 
 /* Spread su array*/
-/* 
+
 const pizze =       [
                         { 
                             'nome': 'magherita',
@@ -97,20 +97,14 @@ const pizze =       [
                     ];
 
                     
-
 const pizzaConAltreInformazioni = 
 {   
     ...pizze,
     'pizzaBianca': false
 };
 
-
-
-
-
 console.log(pizzaConAltreInformazioni);
 
-*/
 
 
 /* se io volessi implementare a mano l'operatore di spread */
@@ -131,13 +125,6 @@ for (let chiave in oggetto_1) {
 }
 
 console.log(oggetto_2);
-
-
-
-
-
-
-
 
 
 
